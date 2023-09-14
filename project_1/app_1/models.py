@@ -17,7 +17,7 @@ class Mebel(models.Model):
         return self.link
 
     def __str__(self):
-        return f"{self.price} | {self.description[:20]}"
+        return f"{self.price} | {self.description[:30]}"
 
     class Meta:
         verbose_name = 'Мебель'
